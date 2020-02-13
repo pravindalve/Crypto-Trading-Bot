@@ -1,5 +1,5 @@
 import pandas as pd
-from screen2 import screen as screen
+from screen9 import screen as screen
 from time import strftime, sleep, localtime
 
 from binance.client import Client
@@ -100,4 +100,4 @@ while True:
                 f.close()
                 tradedCoin = 'ETH'
                 tradedVol = etherVol
-    sleep(5)
+    sleep(15)
